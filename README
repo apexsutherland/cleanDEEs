@@ -1,0 +1,13 @@
+Instructions:
+
+1. Create DE org
+2. Whitelist IP address
+3. Go to Setup > Customize > Cases > Assignment Rules and delete "Standard"
+4. Go to Setup > Customize > Cases > Esclalation Rules and delete "Standard"
+5. Edit System Administrator profile to change default app to Sales
+6. Add org admin credentials to build.properties 
+7. Execute "ant cleanDEE"
+8. Go to Setup > Data Management > Mass Delete Records and go from bottom to top and delete all records.
+9. Go to the Campaigns tab and delete records manually
+10. Go to Setup > Administration Setup > Manage Users > Roles and delete Roles
+11. Go to Setup > Administration Setup > Manage Users > Queues and delete Queues

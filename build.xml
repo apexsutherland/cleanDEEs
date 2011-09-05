@@ -1,0 +1,11 @@
+<project name="Clean out default metadata from Developer Edition environments" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <property file="build.properties"/>
+    <property environment="env"/>
+
+    <target name="cleanDEE">
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.productionurl}" deployRoot="mods"/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.productionurl}" deployRoot="remove"/>
+    </target>  
+    
+</project>
