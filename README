@@ -1,4 +1,10 @@
-Instructions:
+Requirements:
+
+1. Install the Force.com Migration Tool: 
+http://www.salesforce.com/us/developer/docs/daas/index.htm
+
+
+Usage instructions:
 
 1. Create DE org
 2. Whitelist IP address
